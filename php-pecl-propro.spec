@@ -3,12 +3,12 @@
 %define		status		stable
 Summary:	%{modname} - Property proxy
 Name:		%{php_name}-pecl-%{modname}
-Version:	1.0.0
-Release:	2
+Version:	2.1.0
+Release:	1
 License:	BSD, revised
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	9c775035fd17c65f0162b7eb1b4f8564
+# Source0-md5:	cb53d926b3bbd4e98b08757dd4b40fc9
 URL:		http://pecl.php.net/package/propro/
 BuildRequires:	%{php_name}-devel >= 3:5.3.0
 BuildRequires:	rpmbuild(macros) >= 1.650
